@@ -1,6 +1,21 @@
+.logotipo {
+    display: flex; /* Utiliza flexbox para alinear el logo y el nombre en fila */
+    align-items:normal; /* Alinea verticalmente el logo y el nombre */
+    padding: 20px; /* Añade espacio alrededor del contenedor */
+}
+.logotipo img {
+    height: 100px; /* Ajusta la altura del logo */
+    margin-right: 15px; /* Espacio entre el logo y el nombre */
+}
+.logotipo h1 {
+    font-size: 24px; /* Tamaño de la fuente para el nombre */
+    margin: 0; /* Elimina el margen por defecto del h1 */
+    color: #333; /* Color del texto del nombre */
+}
+
 .navegacion {
     display: flex;
-    justify-content: right;
+    justify-content:right;
     margin: 20px 0;
 }
 .boton-navegacion {
@@ -21,4 +36,31 @@
 }
 .boton-navegacion:active {
     transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
+}
+body {
+    font-family: Arial, sans-serif; /* Fuente general de la página */
+    margin:0; /* Elimina el margen por defecto del cuerpo */
+    padding: 0; /* Elimina el relleno por defecto del cuerpo */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+    
+}
+    
+.nombre-tienda {
+    font-size:75px; /* Tamaño de fuente grande para el título principal */
+            color: #333; /* Color del texto */
+            text-align:left; /* Centra el título horizontalmente */
+            margin-bottom: 0px; /* Espacio debajo del título */
+            text-transform: uppercase; /* Transforma el texto a mayúsculas */
+            font-weight: bold; /* Hace el texto en negrita */
+          left: 0;
+          right: 0;
+
+}
+.eslogan{
+    font-size:15px; 
+            color: #333; 
+            text-align:left; 
+            margin-bottom: 20px; /* Espacio debajo del título */
+            text-transform: uppercase; /* Transforma el texto a mayúsculas */
+            font-weight: bold;
 }
