@@ -66,3 +66,17 @@ body {
             text-transform: uppercase; /* Transforma el texto a mayúsculas */
             font-weight: bold;
 }
+.banner {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+    .banner img{
+        width: 33.33%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    
+}
