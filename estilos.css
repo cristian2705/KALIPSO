@@ -52,8 +52,10 @@ body {
             margin-bottom: 0px; /* Espacio debajo del título */
             text-transform: uppercase; /* Transforma el texto a mayúsculas */
             font-weight: bold; /* Hace el texto en negrita */
-          left: 0;
-          right: 0;
+          position: absolute;
+          top:0;
+          left:0;
+          margin-top: -10px;
 
 }
 .eslogan{
