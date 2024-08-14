@@ -1,0 +1,24 @@
+.navegacion {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.boton-navegacion {
+    display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
+    padding: 10px 20px; /* Añade relleno dentro de los botones */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    color: white; /* Color del texto del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 25px; /* Redondea los bordes del botón para un efecto de elipse */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-align: center; /* Centra el texto dentro del botón */
+    transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
+}
+.boton-navegacion:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
+}
+.boton-navegacion:active {
+    transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
+}
