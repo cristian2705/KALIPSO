@@ -80,3 +80,15 @@ body {
         border-radius: 10px;
     
 }
+.boton-busqueda {
+background-color:blue;
+color: pink;
+padding: 10 px, 20px;
+border:none;
+border-radius: 5px;
+cursor:pointer;
+}
+
+.boton-busqueda:hover {
+background-color: yellow;
+}
