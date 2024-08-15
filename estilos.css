@@ -11,6 +11,11 @@
     font-size: 24px; /* Tamaño de la fuente para el nombre */
     margin: 0; /* Elimina el margen por defecto del h1 */
     color: #333; /* Color del texto del nombre */
+    width:12 cm; /* Ancho de la línea */
+    height:92px; /* Altura de la línea */
+    background-color: #3498db; /* Color de la línea */
+    border: none; /* Elimina los bordes predeterminados */
+    
 }
 
 .navegacion {
@@ -37,6 +42,7 @@
 .boton-navegacion:active {
     transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
 }
+--
 body {
     font-family: Arial, sans-serif; /* Fuente general de la página */
     margin:0; /* Elimina el margen por defecto del cuerpo */
@@ -80,15 +86,54 @@ body {
         border-radius: 10px;
     
 }
-.boton-busqueda {
-background-color:blue;
-color: pink;
-padding: 10 px, 20px;
-border:none;
-border-radius: 5px;
-cursor:pointer;
+.linea-horizontal {
+    width:50cm; /* Ancho de la línea */
+    height:40px; /* Altura de la línea */
+    background-color: #007BFF; /* Color de la línea */
+    border: none; /* Elimina los bordes predeterminados */
+    
+}
+.contenedor {
+    display: flex;
+    justify-content:right;
+    margin: 0px 0;
+}
+.boton-navegacion {
+    cursor: pointer;
+    position: absolute;
+    top:0%;
+    transform: translateY(+30%);
+    display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
+    padding: 10px 20px; /* Añade relleno dentro de los botones */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    color: black; /* Color del texto del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 5px; /* Redondea los bordes del botón para un efecto de elipse */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-align: center; /* Centra el texto dentro del botón */
+    transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
+}
+.boton-navegacion:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
+}
+.boton-navegacion:active {
+    transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
 }
 
-.boton-busqueda:hover {
-background-color: yellow;
+/* Posiciona los botones a la izquierda y a la derecha de la línea */
+.boton-inicio {
+    left: calc(101% - 10.5cm); /* Ajusta a la izquierda del centro */
 }
+
+.boton-producto {
+    left: calc(104% - 9.5cm); /* Ajusta a la derecha del centro */
+}
+.boton-categorias{
+    left: calc(107% - 7.9cm);
+}
+.boton-contacto {
+    left: calc(110% - 6cm);
+}
+   
