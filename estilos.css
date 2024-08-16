@@ -13,7 +13,7 @@
     color: #333; /* Color del texto del nombre */
     width:12 cm; /* Ancho de la línea */
     height:92px; /* Altura de la línea */
-    background-color: #3498db; /* Color de la línea */
+    background-color: #fafafa; /* Color de la línea */
     border: none; /* Elimina los bordes predeterminados */
     
 }
@@ -28,7 +28,7 @@
     padding: 10px 20px; /* Añade relleno dentro de los botones */
     font-size: 16px; /* Ajusta el tamaño de la fuente */
     color: white; /* Color del texto del botón */
-    background-color: #007BFF; /* Color de fondo del botón */
+    background-color: #424952; /* Color de fondo del botón */
     border: none; /* Elimina el borde predeterminado del botón */
     border-radius: 25px; /* Redondea los bordes del botón para un efecto de elipse */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
@@ -36,7 +36,7 @@
     transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
 }
 .boton-navegacion:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    background-color: #33383d; /* Cambia el color de fondo al pasar el ratón sobre el botón */
     transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
 }
 .boton-navegacion:active {
@@ -53,7 +53,7 @@ body {
     
 .nombre-tienda {
     font-size:75px; /* Tamaño de fuente grande para el título principal */
-            color: #333; /* Color del texto */
+            color: #f7f3f3; /* Color del texto */
             text-align:left; /* Centra el título horizontalmente */
             margin-bottom: 0px; /* Espacio debajo del título */
             text-transform: uppercase; /* Transforma el texto a mayúsculas */
@@ -66,7 +66,7 @@ body {
 }
 .eslogan{
     font-size:15px; 
-            color: #333; 
+            color: #fdfdfd; 
             text-align:left; 
             margin-bottom: 20px; /* Espacio debajo del título */
             text-transform: uppercase; /* Transforma el texto a mayúsculas */
@@ -89,13 +89,13 @@ body {
 .linea-horizontal {
     width:50cm; /* Ancho de la línea */
     height:40px; /* Altura de la línea */
-    background-color: #007BFF; /* Color de la línea */
+    background-color: #070707; /* Color de la línea */
     border: none; /* Elimina los bordes predeterminados */
     
 }
 .contenedor {
     display: flex;
-    justify-content:right;
+    justify-content:center;
     margin: 0px 0;
 }
 .boton-navegacion {
@@ -106,8 +106,8 @@ body {
     display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
     padding: 10px 20px; /* Añade relleno dentro de los botones */
     font-size: 14px; /* Ajusta el tamaño de la fuente */
-    color: black; /* Color del texto del botón */
-    background-color: #007BFF; /* Color de fondo del botón */
+    color: rgb(247, 244, 244); /* Color del texto del botón */
+    background-color: #595c61; /* Color de fondo del botón */
     border: none; /* Elimina el borde predeterminado del botón */
     border-radius: 5px; /* Redondea los bordes del botón para un efecto de elipse */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
@@ -136,4 +136,31 @@ body {
 .boton-contacto {
     left: calc(110% - 6cm);
 }
+.titulo {
+    color: rgb(19, 16, 16);/*centrado del subtitulo productos recomendados*/
+    text-align: center;
+    }
+    header{
+        width: 100%;
+        height: 600px;
+        background: #bdc3c7;  /* fondo de color del header*/
+background: -webkit-linear-gradient(to right, #5b6270e7, #bbcfdd);  ;  
+background: linear-gradient(to right, #5b6270e7, #bbcfdd); 
+
+
+
+    }
+
+   .contenedor-productos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    background: #bdc3c7;  /* fondo de color desvanecido*/
+background: -webkit-linear-gradient(to right, #5b6270e7, #bbcfdd);  ;  
+background: linear-gradient(to right, #5b6270e7, #bbcfdd); 
+    
+ }
+ 
+   
    
