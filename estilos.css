@@ -65,61 +65,53 @@ body {
 
 }
 .eslogan{
-    font-size:15px; 
+    font-size:21px; 
             color: #fdfdfd; 
             text-align:left; 
-            margin-bottom: 20px; /* Espacio debajo del título */
+            margin-bottom:-4.5px; /* Espacio debajo del título */
             text-transform: uppercase; /* Transforma el texto a mayúsculas */
             font-weight: bold;
+            position:relative;
             
 }
-/*carrusel*/
+.banner {
+  right: 30px;
+left:-5px;
+margin: top 5px;;
+position: relative;
+}
+.banner img {
+width: 100%;
+height:13.9cm;
+}
 
-body{
-    background-color: red;
-  }
-  .carousel-wrapper {
-    width: 423px;
-    height: 100cm;
-    margin: 0 auto; /* para centrar el carrusel horizontalmente */
-  }
-  .carousel-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .carousel-slide {
-    display: flex;
-    width: 100%;
-    transition: transform 0.6s ease-in-out;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .carousel-prev, .carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .carousel-prev {
-    left: 80px;
-  }
-  
-  .carousel-next {
-    right: 80px;
-  }
-  
+.banner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translateX(-50%) translateY(-50%);
+  color:#070707;
+}
+.banner h2{
+  font-size: 28 px;
+  text-align: center;
+}
+.banner a{
+  display: block;
+  width: 100px;
+  color:black; ;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 3px color(white);
+  text-align: center;
+}
+.banner a :hover{
+  background: 51,51,51,0.5;
+}
 .linea-horizontal {
     width:50cm; /* Ancho de la línea */
-    height:40px; /* Altura de la línea */
+    height:35px; /* Altura de la línea */
     background-color: #070707; /* Color de la línea */
     border: none; /* Elimina los bordes predeterminados */
     
@@ -257,4 +249,41 @@ background: linear-gradient(to right, #5b6270e7, #bbcfdd);
 .image-container {
   display: flex;
   gap: 10px; /* Espacio entre imágenes */
+}
+/*Footer*/
+.copy{
+  text-align: center;
+}
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espacio entre íconos */
+}
+
+.social-icon img {
+  width: 24px; /* Tamaño del ícono */
+  height: 24px;
+  transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+.social-icon:hover img {
+  transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón */
+}
+
+.facebook img {
+  filter: invert(1); /* Opcional: cambia el color del ícono para que se vea bien sobre un fondo oscuro */
+}
+
+.twitter img {
+  filter: invert(1);
+}
+
+.instagram img {
+  filter: invert(1);
 }
