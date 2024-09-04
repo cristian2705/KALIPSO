@@ -1,82 +1,82 @@
 .logotipo {
-    display: flex; /* Utiliza flexbox para alinear el logo y el nombre en fila */
-    align-items:normal; /* Alinea verticalmente el logo y el nombre */
-    padding: 20px; /* Añade espacio alrededor del contenedor */
+  display: flex; /* Utiliza flexbox para alinear el logo y el nombre en fila */
+  align-items:normal; /* Alinea verticalmente el logo y el nombre */
+  padding: 20px; /* Añade espacio alrededor del contenedor */
 }
 .logotipo img {
-    height: 100px; /* Ajusta la altura del logo */
-    margin-right: 15px; /* Espacio entre el logo y el nombre */
+  height: 100px; /* Ajusta la altura del logo */
+  margin-right: 15px; /* Espacio entre el logo y el nombre */
 }
 .logotipo h1 {
-    font-size: 24px; /* Tamaño de la fuente para el nombre */
-    margin: 0; /* Elimina el margen por defecto del h1 */
-    color: #333; /* Color del texto del nombre */
-    width:12 cm; /* Ancho de la línea */
-    height:92px; /* Altura de la línea */
-    background-color: #fafafa; /* Color de la línea */
-    border: none; /* Elimina los bordes predeterminados */
-    
+  font-size: 24px; /* Tamaño de la fuente para el nombre */
+  margin: 0; /* Elimina el margen por defecto del h1 */
+  color: #333; /* Color del texto del nombre */
+  width:12 cm; /* Ancho de la línea */
+  height:92px; /* Altura de la línea */
+  background-color: #fafafa; /* Color de la línea */
+  border: none; /* Elimina los bordes predeterminados */
+  
 }
 
 .navegacion {
-    display: flex;
-    justify-content:right;
-    margin: 20px 0;
+  display: flex;
+  justify-content:right;
+  margin: 20px 0;
 }
 .boton-navegacion {
-    display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
-    padding: 10px 20px; /* Añade relleno dentro de los botones */
-    font-size: 16px; /* Ajusta el tamaño de la fuente */
-    color: white; /* Color del texto del botón */
-    background-color: #424952; /* Color de fondo del botón */
-    border: none; /* Elimina el borde predeterminado del botón */
-    border-radius: 25px; /* Redondea los bordes del botón para un efecto de elipse */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    text-align: center; /* Centra el texto dentro del botón */
-    transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
+  display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
+  padding: 10px 20px; /* Añade relleno dentro de los botones */
+  font-size: 16px; /* Ajusta el tamaño de la fuente */
+  color: white; /* Color del texto del botón */
+  background-color: #424952; /* Color de fondo del botón */
+  border: none; /* Elimina el borde predeterminado del botón */
+  border-radius: 25px; /* Redondea los bordes del botón para un efecto de elipse */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  text-align: center; /* Centra el texto dentro del botón */
+  transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
 }
 .boton-navegacion:hover {
-    background-color: #33383d; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-    transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
+  background-color: #33383d; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
 }
 .boton-navegacion:active {
-    transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
+  transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
 }
 --
 body {
-    font-family: Arial, sans-serif; /* Fuente general de la página */
-    margin:0; /* Elimina el margen por defecto del cuerpo */
-    padding: 0; /* Elimina el relleno por defecto del cuerpo */
-    background-color: #f4f4f4; /* Color de fondo de la página */
-    
+  font-family: Arial, sans-serif; /* Fuente general de la página */
+  margin:0; /* Elimina el margen por defecto del cuerpo */
+  padding: 0; /* Elimina el relleno por defecto del cuerpo */
+  background-color: #f4f4f4; /* Color de fondo de la página */
+  
 }
-    
+  
 .nombre-tienda {
-    font-size:75px; /* Tamaño de fuente grande para el título principal */
-            color: #f7f3f3; /* Color del texto */
-            text-align:left; /* Centra el título horizontalmente */
-            margin-bottom: 0px; /* Espacio debajo del título */
-            text-transform: uppercase; /* Transforma el texto a mayúsculas */
-            font-weight: bold; /* Hace el texto en negrita */
-          position: absolute;
-          top: 0;;
-          left:0;
-          margin-top: -16px;/*espacio entre el noombre kalipso y ropa a tu estilo*/
-        
+  font-size:75px; /* Tamaño de fuente grande para el título principal */
+          color: #f7f3f3; /* Color del texto */
+          text-align:left; /* Centra el título horizontalmente */
+          margin-bottom: 0px; /* Espacio debajo del título */
+          text-transform: uppercase; /* Transforma el texto a mayúsculas */
+          font-weight: bold; /* Hace el texto en negrita */
+        position: absolute;
+        top: 0;;
+        left:0;
+        margin-top: -16px;/*espacio entre el noombre kalipso y ropa a tu estilo*/
+      
 
 }
 .eslogan{
-    font-size:21px; 
-            color: #fdfdfd; 
-            text-align:left; 
-            margin-bottom:-4.5px; /* Espacio debajo del título */
-            text-transform: uppercase; /* Transforma el texto a mayúsculas */
-            font-weight: bold;
-            position:relative;
-            
+  font-size:21px; 
+          color: #fdfdfd; 
+          text-align:left; 
+          margin-bottom:-4.5px; /* Espacio debajo del título */
+          text-transform: uppercase; /* Transforma el texto a mayúsculas */
+          font-weight: bold;
+          position:relative;
+          
 }
 .banner {
-  right: 30px;
+right: 30px;
 left:-5px;
 margin: top 5px;;
 position: relative;
@@ -88,189 +88,197 @@ height:13.9cm;
 
 
 .banner a :hover{
-  background: 51,51,51,0.5;
+background: 51,51,51,0.5;
 }
 .linea-horizontal {
-    width:50cm; /* Ancho de la línea */
-    height:35px; /* Altura de la línea */
-    background-color: #070707; /* Color de la línea */
-    border: none; /* Elimina los bordes predeterminados */
-    
+  width:50cm; /* Ancho de la línea */
+  height:35px; /* Altura de la línea */
+  background-color: #070707; /* Color de la línea */
+  border: none; /* Elimina los bordes predeterminados */
+  
 }
 .contenedor {
-    display: flex;
-    justify-content:center;
-    margin: 0px 0;
+  display: flex;
+  justify-content:center;
+  margin: 0px 0;
 }
 .boton-navegacion {
-    cursor: pointer;
-    position: absolute;
-    top:0%;
-    transform: translateY(+30%);
-    display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
-    padding: 10px 20px; /* Añade relleno dentro de los botones */
-    font-size: 14px; /* Ajusta el tamaño de la fuente */
-    color: rgb(247, 244, 244); /* Color del texto del botón */
-    background-color: #595c61; /* Color de fondo del botón */
-    border: none; /* Elimina el borde predeterminado del botón */
-    border-radius: 5px; /* Redondea los bordes del botón para un efecto de elipse */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    text-align: center; /* Centra el texto dentro del botón */
-    transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
+  cursor: pointer;
+  position: absolute;
+  top:0%;
+  transform: translateY(+30%);
+  display: inline-block; /* Asegura que los botones se comporten como elementos en línea */
+  padding: 10px 20px; /* Añade relleno dentro de los botones */
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
+  color: rgb(247, 244, 244); /* Color del texto del botón */
+  background-color: #595c61; /* Color de fondo del botón */
+  border: none; /* Elimina el borde predeterminado del botón */
+  border-radius: 5px; /* Redondea los bordes del botón para un efecto de elipse */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  text-align: center; /* Centra el texto dentro del botón */
+  transition: background-color 0.3s, transform 0.3s; /* Añade transición para el color de fondo y el efecto de transformación */
 }
 .boton-navegacion:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-    transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  transform: scale(1.05); /* Agranda el botón ligeramente al pasar el ratón */
 }
 .boton-navegacion:active {
-    transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
+  transform: scale(0.95); /* Reduce el tamaño del botón ligeramente al hacer clic */
 }
 
 /* Posiciona los botones a la izquierda y a la derecha de la línea */
 .boton-inicio {
-    left: calc(101% - 10.5cm); /* Ajusta a la izquierda del centro */
+  left: calc(101% - 10.5cm); /* Ajusta a la izquierda del centro */
 }
 
 .boton-producto {
-    left: calc(104% - 9.5cm); /* Ajusta a la derecha del centro */
+  left: calc(104% - 9.5cm); /* Ajusta a la derecha del centro */
 }
 .boton-categorias{
-    left: calc(107% - 7.9cm);
+  left: calc(107% - 7.9cm);
 }
 .boton-contacto {
-    left: calc(110% - 6cm);
+  left: calc(110% - 6cm);
 }
+.container{
+  text-align: center;
+}
+.icono{
+  display: flex;
+justify-content: center;
+   
+  }
 .titulo {
-    color: rgb(19, 16, 16);/*color del subtitulo*/
-    text-align: center; /*centrado del subtitulo nuestro producto*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /*estilo de letra*/
-    }
-    header{
-        width: 100%;
-        height: 600px;
-        background: #bdc3c7;  /* fondo de color del header*/
+  color: rgb(19, 16, 16);/*color del subtitulo*/
+  text-align: center; /*centrado del subtitulo nuestro producto*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*estilo de letra*/
+  }
+  header{
+      width: 100%;
+      height: 600px;
+      background: #bdc3c7;  /* fondo de color del header*/
 background: -webkit-linear-gradient(to right, #5b6270e7, #bbcfdd);  ;  
 background: linear-gradient(to right, #5b6270e7, #bbcfdd); 
 
 
 
-    }
+  }
 
-   .contenedor-productos{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 600px;
-    background: #bdc3c7;  /* fondo de color desvanecido*/
+ .contenedor-productos{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+  background: #bdc3c7;  /* fondo de color desvanecido*/
 background: -webkit-linear-gradient(to right, #5b6270e7, #bbcfdd);  ;  
 background: linear-gradient(to right, #5b6270e7, #bbcfdd); 
-    
- }
- 
- .btn{
-  color: #132f4d;/*color del boton mas informacion*/
- }
- 
- /*Boton de busqueda*/  
- body {
-    margin: 0;
-    padding: 0;
-    background:white;}
   
-  .search-box {
-    position: absolute;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;}
-  
-  .search-box:hover > .search-txt {
-    width: 240px;
-    padding: 0 6px;}
-  
-  .search-box:hover > .search-btn {
-    background: rgb(44, 43, 43);}
-  
-  .search-btn {
-    color:white;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;}
-  
-  .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;}
-  .articulos {
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-    box-shadow: 0px 0px 5px rgb(235, 233, 233);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;/*estilo de letra de los articulos*/
-    color: #0e0d0d; /*color de la letra de los articulos*/
+}
+
+.btn{
+color: #132f4d;/*color del boton mas informacion*/
+}
+
+/*Boton de busqueda*/  
+body {
+  margin: 0;
+  padding: 0;
+  background:white;}
+
+.search-box {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;}
+
+.search-box:hover > .search-btn {
+  background: rgb(44, 43, 43);}
+
+.search-btn {
+  color:white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;}
+.articulos {
+  padding: 10px;
+  margin: 10px;
+  text-align:center;
+  box-shadow: 0px 0px 5px rgb(235, 233, 233);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/*estilo de letra de los articulos*/
+  color: #0e0d0d; /*color de la letra de los articulos*/
 }
 
 .articulos img {
-    max-width: 100%;
-    height: auto;
-    position: center;
-    display: flex;
+  max-width: 100%;
+  height: auto;
+  position: center;
+  display: flex;
 }
 .image-container {
-  display: flex;
-  gap: 10px; /* Espacio entre imágenes */
+display: flex;
+gap: 10px; /* Espacio entre imágenes */
 }
 /*Footer*/
 .copy{
-  text-align: center;
+text-align: center;
 }
 footer {
-  background-color: #333; /* Color de fondo del pie de página */
-  padding: 20px;
-  text-align: center;
+background-color: #333; /* Color de fondo del pie de página */
+padding: 20px;
+text-align: center;
 }
 
 .social-media-icons {
-  display: flex;
-  justify-content: center;
-  gap: 10px; /* Espacio entre íconos */
+display: flex;
+justify-content: center;
+gap: 10px; /* Espacio entre íconos */
 }
 
 .social-icon img {
-  width: 24px; /* Tamaño del ícono */
-  height: 24px;
-  transition: transform 0.3s; /* Transición suave para el hover */
+width: 24px; /* Tamaño del ícono */
+height: 24px;
+transition: transform 0.3s; /* Transición suave para el hover */
 }
 
 .social-icon:hover img {
-  transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón */
+transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón */
 }
 
 .facebook img {
-  filter: invert(1); /* Opcional: cambia el color del ícono para que se vea bien sobre un fondo oscuro */
+filter: invert(1); /* Opcional: cambia el color del ícono para que se vea bien sobre un fondo oscuro */
 }
 
 .twitter img {
-  filter: invert(1);
+filter: invert(1);
 }
 
 .instagram img {
-  filter: invert(1);
+filter: invert(1);
 }
-   
+ 
